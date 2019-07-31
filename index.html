@@ -10,12 +10,7 @@
                 background-image: url("back.jpg");
                 
                 background-size: cover;
-                /* Center and scale the image nicely */
-                /*height: 100%;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: auto;
-                */
+                
             }
             body{
                 margin: 0%;
@@ -62,29 +57,36 @@
             img{
                 position: relative;
             }
+            .contain{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
         </style>
     </head>
 
     <body>
-        <h1 id="hello">Hello There!</h1>
-        <img id="pro" src="nikhil.jpg">
-        <h2 id="name">Nikhil Reddy Pyreddy</h2>
-        <h5 id="tech">Tech Enthusiast</h5>
-        <h3 id="connect">Connect to Me</h3>
-        <div align="center">
-            <a href="https://twitter.com/NPyreddy" target="_blank"><img src="icons/twitter.png"></a>
-            <a href="https://www.instagram.com/nikhil_pyreddy/" target="_blank"><img src="icons/insta.png"></a>
-            <a href="https://www.linkedin.com/in/nikhilreddypyreddy" target="_blank"><img src="icons/linkedin.png"></a>
-            <a href="https://www.youtube.com/channel/UCo8BKSsPqLl36w8iiUp3X0w/featured" target="_blank"><img src="icons/youtube.png"></a>
-            <a href="https://github.com/nikhilpyreddy" target="_blank"><img src="icons/github.png"></a>
-        </div>
+        <div class="contain">
+            <h1 id="hello">Hello There!</h1>
+            <img id="pro" src="nikhil.jpg">
+            <h2 id="name">Nikhil Reddy Pyreddy</h2>
+            <h5 id="tech">Tech Enthusiast</h5>
+            <h3 id="connect">Connect to Me</h3>
+            <div align="center">
+                <a href="https://twitter.com/NPyreddy" target="_blank"><img src="icons/twitter.png"></a>
+                <a href="https://www.instagram.com/nikhil_pyreddy/" target="_blank"><img src="icons/insta.png"></a>
+                <a href="https://www.linkedin.com/in/nikhilreddypyreddy" target="_blank"><img src="icons/linkedin.png"></a>
+                <a href="https://www.youtube.com/channel/UCo8BKSsPqLl36w8iiUp3X0w/featured" target="_blank"><img src="icons/youtube.png"></a>
+                <a href="https://github.com/nikhilpyreddy" target="_blank"><img src="icons/github.png"></a>
+            </div>
         
-        <div align="center">
-            <h3 id="contact">Contact </h3>
-            <a href="mailto:nikhilkumarreddypyreddy@gmail.com" target="_blank"><img src="icons/gmail.png"></a>
-            <a href="mailto:nikhilpyreddy@outlook.com" target="_blank"><img src="icons/outlook.png"></a>
-            <a href="https://www.facebook.com/nikilkumarreddypyreddy" target="_blank"><img src="icons/fb.png"></a>
+            <div align="center">
+                <h3 id="contact">Contact </h3>
+                <a href="mailto:nikhilkumarreddypyreddy@gmail.com" target="_blank"><img src="icons/gmail.png"></a>
+                <a href="mailto:nikhilpyreddy@outlook.com" target="_blank"><img src="icons/outlook.png"></a>
+                <a href="https://www.facebook.com/nikilkumarreddypyreddy" target="_blank"><img src="icons/fb.png"></a>
+            </div>
         </div>
-</body>
-
+    </body>
 </html>
